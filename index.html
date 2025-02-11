@@ -18,6 +18,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" 
+  integrity="sha384-KyZXEJ6Hmk3uR4j9g2U0pZ8zEhd4jxS7R6ad7FV2A2F18h4t65jDlH3XglPEMb8yN" 
+  crossorigin="anonymous"> -->
+
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -66,17 +71,27 @@
 
       <img src="assets/img/darius_hero.png" class="img-fluid" alt="Darius' profile picture" data-aos="fade-in">
       
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Darius Sehatzadeh</h2>
+      <!-- BIO -->
 
-        <!-- REMOVED DEFAULT VISUALS FOR NOW -->
-        <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Photographer</span><span class="typed-cursor typed-cursor--blink"></span></p> -->
-        <!-- <div class="social-links">
-          <a href="#"><i class="bi bi-twitter-x"></i></a>
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+
+        <h2 style="color: var(--accent-color);">Darius Sehatzadeh</h2>
+
+        <p>I'm an <span class="typed" data-typed-items="IT Programming Student, Aspiring Developer"></span><span class="typed-cursor typed-cursor--blink"></span></p>
+        
+        <div class="social-links mb-4">
+          <!-- PLACEHOLDER FOR MAILTO BUTTON -->
+          <!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+          <a href="#"><i class="bi bi-github"></i></a>
           <a href="#"><i class="bi bi-linkedin"></i></a>
-        </div> -->
+        </div>
+
+        <!-- WRITTEN BIO - NOT NEEDED FOR NOW -->
+        <!-- <p>
+          Hello and thanks for checking out my portfolio! I will be graduating from NSCC's IT Programming course 
+          in December 2025.
+        </p> -->
+
       </div>
 
     </section><!-- /Hero Section -->
@@ -85,9 +100,24 @@
 
   <!-- PORTFOLIO SECTION -->
 
-  <div>
+  <section id="projects" class="projects section dark-background mb-4" style="text-align: center;">
 
-  </div>
+    <h1 style="color: var(--heading-color); text-decoration: underline; text-decoration-color: var(--accent-color);">My Projects</h2>
+
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+
+      <div class="card" style="width: 33%; height: 60vh;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary" style="background-color: var(--accent-color); border-color: var(--accent-color);">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
