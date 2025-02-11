@@ -1,1 +1,0 @@
-# DaryoushSehatzadeh.github.io
