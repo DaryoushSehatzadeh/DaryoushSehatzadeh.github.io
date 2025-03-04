@@ -1,8 +1,1 @@
-#UNDER CONSTRUCTION
-
-Thanks for downloading this template!
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is my personal portfolio. I currently have 1 project uploaded and intend to upload more in the near future!
