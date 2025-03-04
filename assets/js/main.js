@@ -168,6 +168,28 @@
     selector: '.glightbox'
   });
 
+  // Handle background image on resize
+  function setHeroImage() {
+    const heroSection = document.querySelector("#image");
+    
+    if (!heroSection) return; // Prevents errors if the element isn't found
+  
+    if (window.innerWidth < 480) {
+      heroSection.src = "assets/img/darius_hero4.png"
+    } else if (window.innerWidth < 768) {
+      heroSection.src = "assets/img/darius_hero3.png"
+    } else if (window.innerWidth < 992) {
+      heroSection.src = "assets/img/darius_hero2.png"
+    } else {
+      heroSection.src = "assets/img/darius_hero.png"
+    }
+  }
+  
+  // Run on load and resize
+  window.addEventListener("load", setHeroImage);
+  window.addEventListener("resize", setHeroImage);
+  
+
   /**
    * Init isotope layout and filters
    */
